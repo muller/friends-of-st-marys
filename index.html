@@ -1,1 +1,29 @@
+<html lang="en">
 
+<head>
+    <title>Friends of St Mary's</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://js.stripe.com/v3"></script>
+    <script src="/index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>St Mary's Boys' National School Booterstown Parents Association</h1>
+        <h2>Friends of St Mary's</h2>
+        <h3>The monthly prize draw</h3>
+        <p>Supporting our boys beyond the classroom</p>
+        <p>Win up to €300 every month!</p>
+
+        <button id="friends-of-st-marys" class="btn btn-primary" onclick="redirectToFriendsOfStMaryPlan()">
+            Support - Just €15/month
+        </button>
+
+        <h2>Events</h2>
+        <div id="events-container"></div>
+        <script>renderEvents(document.getElementById("events-container"))</script>
+    </div>
+</body>
+</html>
