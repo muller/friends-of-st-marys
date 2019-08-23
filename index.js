@@ -11,8 +11,8 @@ const CONFIG = {
 };
 
 let urls = {
-    cancelUrl: `${window.location.href}/cancel.html`,
-    successUrl: `${window.location.href}/success.html`,
+    cancelUrl: `${window.location.href}cancel.html`,
+    successUrl: `${window.location.href}success.html`,
 };
 
 let stripe = Stripe(CONFIG.STRIPE.API_KEY);
