@@ -2,7 +2,7 @@
 const CONFIG = {
     EVENTS: {
         RANGE: 'Sheet1!A2:D11',
-        API_KEY: 'AIzaSyBGA3A74_77EnkBXysT96UYYHzFsCem7io',
+        API_KEY: 'AIzaSyDHDr-5OZe7A_odw_Snalb5jCWyjKuS_io',
         SPREADSHEET_ID: '1dlFOGibQcuWcYqi1QehbMb2FI-nTnKT8iN551YaBPjo',
     },
     STRIPE: {
